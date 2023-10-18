@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const AuthController = require('../controllers/Auther-controller');
+// const authrozation = require("../helper")
 
 router.get('/authlist',AuthController.getAutherDetail)
 

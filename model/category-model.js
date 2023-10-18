@@ -11,6 +11,7 @@ const categorySchema = new mongoose.Schema({
   posts: [{
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Posts'
+      //
   }]
 });
 
